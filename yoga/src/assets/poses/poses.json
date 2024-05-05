@@ -1,0 +1,45 @@
+{
+  "poses": [
+
+    {
+      "name": "Warrior 2",
+      "image": "assets/poses/images/warrior2_pose.svg",
+      "info": "The Warrior 2 Pose, also known as Virabhadrasana II in Sanskrit, is a classic yoga posture that embodies the strength and stamina of a warrior. This dynamic standing pose stretches the legs and ankles, while opening the hips and chest. The arms are extended, parallel to the ground, promoting improved concentration, balance, and circulation. Warrior 2 is celebrated for enhancing stability and endurance both physically and mentally.",
+      "angles": {
+        "rightElbow": 180,
+        "leftElbow": 180,
+        "rightKnee": 90,
+        "leftKnee": 175,
+        "rightHip": 175,
+        "leftHip": 170
+      }
+    },
+    {
+      "name": "Goddess Pose",
+      "image": "assets/poses/images/goddess_pose.svg",
+      "info": "The Goddess Pose, known as Utkata Konasana in Sanskrit, is a powerful yoga posture that resembles a squat and involves spreading the legs wide with the feet turned out, bending the knees, and holding the arms outstretched at shoulder height. This pose strengthens and stretches the hips, groins, and chest while enhancing stability and stamina.",
+      "angles": {
+        "rightElbow": 90,
+        "leftElbow": 90,
+        "rightKnee": 90,
+        "leftKnee": 90,
+        "rightHip": 90,
+        "leftHip": 90
+      }
+    },
+
+    {
+      "name": "Tree",
+      "image": "assets/poses/images/tree_pose.svg",
+      "info": "The Tree Pose, or Vrksasana, is a balancing yoga posture that symbolizes stability and grounding. Practitioners stand on one leg, bend the other knee, and place the foot on the inner thigh of the standing leg, mimicking the rooted stance of a tree. This pose helps strengthen the legs, improve balance, and cultivate focus and poise. It also opens the hips and promotes an overall sense of calm and centeredness.",
+      "angles": {
+        "rightElbow": 90,
+        "leftElbow": 90,
+        "rightKnee": 175,
+        "leftKnee": 120,
+        "rightHip": 175,
+        "leftHip": 175
+      }
+    }
+  ]
+}

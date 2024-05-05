@@ -1,0 +1,33 @@
+#pose-container{
+  display: flex;
+  height: 100vh;
+}
+#webcam-card{
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  width: 70%;
+}
+
+#canvas{
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  position: relative;
+}
+
+#content{
+  flex-grow: 1;
+  display: flex;
+}
+
+#logo-img{
+  width: 200px;
+  height: 200px;
+}
+
+
+#yoga-poses{
+  align-self: center;
+  margin: 2%;
+  width: 30%;
+
+}

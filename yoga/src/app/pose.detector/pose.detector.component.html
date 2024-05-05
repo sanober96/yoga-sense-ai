@@ -1,0 +1,33 @@
+<div class="banner-area relative">
+  <div class="d-flex flex-column" id="pose-container">
+    <div class="flex-row">
+      <app-header></app-header>
+    </div>
+    <div id="content" class="flex-row">
+      <div #webcamContainer id="webcam-card">
+        <video #videoElement style="display: none;"></video>
+        <canvas #canvasElement id="canvas"></canvas>
+      </div>
+      <div id="yoga-poses">
+        <div class="d-flex flex-column" *ngIf="yogaPoses !== undefined">
+          <div>
+            <app-yoga-pose  [name]="yogaPoses[index].name" [info]="yogaPoses[index].info" [image]="yogaPoses[index].image" ></app-yoga-pose>
+          </div>
+          <div class="d-flex flex-row align-self-center mt-10">
+            <button class="btn btn-outline-primary mr-10" (click)="showPreviousYogaPose()" [disabled]="index === 0">
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <button class="btn btn-outline-primary" (click)="showNextYogaPose()" [disabled]="index === yogaPoses.length - 1">
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

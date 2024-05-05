@@ -1,0 +1,26 @@
+<div class="card">
+  <img [src]="image" class="card-img-top"/>
+  <div class="card-body">
+    <h5 class="card-title">{{name}}</h5>
+    <p class="card-text">{{info}}</p>
+    <div class="d-flex flex-row space-between">
+      <div class="d-flex flex-row">
+        <button class="btn btn-outline-primary mr-5" [class.active]="isActive" data-toggle="button" aria-pressed="false" (click)="activate()">Try</button>
+        <button class="btn btn-outline-primary" (click)="reset()">Reset</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-outline-success"
+                [class.active]="activeStates[0]"
+                (click)="toggleActive(0)">Easy</button>
+        <button type="button" class="btn btn-outline-success"
+                [class.active]="activeStates[1]"
+                (click)="toggleActive(1)">Medium</button>
+        <button type="button" class="btn btn-outline-success"
+                [class.active]="activeStates[2]"
+                (click)="toggleActive(2)">Difficult</button>
+      </div>
+    </div>
+
+  </div>
+</div>

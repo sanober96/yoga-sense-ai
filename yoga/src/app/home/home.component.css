@@ -1,0 +1,19 @@
+#home-container{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+}
+
+#section-info{
+  flex-grow: 1;
+  align-content: center;
+
+}
+
+.banner-content h1{
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2em;
+}
+
+
